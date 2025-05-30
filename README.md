@@ -91,20 +91,17 @@ Write a C Program to convert the given string into lowercase.
 
 ## PROGRAM:
 ```c
-#include <stdio.h> 
-#include <ctype.h> 
-int main() 
-{ 
-char str[100]; 
-int i = 0; 
-fgets(str, sizeof(str), stdin); 
-while (str[i]) 
-{ 
-str[i] = tolower(str[i]); 
-i++; 
-} 
-printf("Lowercase string: %s", str); 
-return 0;
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char str[10];
+    int i = 0;
+    scanf("%s", str);
+    while (str[i] != '\0') {
+        str[i] = tolower(str[i]);
+        i++;}
+printf("%s\n", str);return 0;
 }
 ```
 ## OUTPUT:
