@@ -15,12 +15,13 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 int main() { 
 int a = 44, b = 3; 
 int result = a << b; 
-printf("The result of left shifting %d by %d positions is: %d\n", a, b, result); 
+printf("result: %d\n", result); 
 return 0; 
 }
 ```
 ## OUTPUT:
-<img width="580" alt="image" src="https://github.com/user-attachments/assets/6a5aba82-9ff8-4c89-993e-400f6f91cf32" />
+![image](https://github.com/user-attachments/assets/be78e1a5-a82d-43da-8789-54bb2ef69887)
+
 
 ## RESULT:
 Thus the program to perform the basic left shift operation for 44 integer number with 3 shifts has been executed successfully.
