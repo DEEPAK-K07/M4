@@ -20,7 +20,8 @@ return 0;
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/be78e1a5-a82d-43da-8789-54bb2ef69887)
+![image](https://github.com/user-attachments/assets/0e309ccc-05a0-4641-811e-6b58fea2ab10)
+
 
 
 ## RESULT:
